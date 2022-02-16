@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:oi_tolgoo/customs/custom_button.dart';
 import 'package:oi_tolgoo/methods/constans.dart';
 import 'package:oi_tolgoo/customs/custom_dialog.dart';
-import 'package:oi_tolgoo/screens/list_screen.dart';
 import 'package:oi_tolgoo/quizs/questio_brein.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -48,9 +47,10 @@ class _HomeScreenState extends State<HomeScreen> {
       } else {
         CustomDialog.showCustomDialog(
           parentContext: context,
-          content: Text('Алган бааңыз  4'),
+          content: Text('Алган бааңыз  3'),
         );
       }
+      
 
       questionBrain.reset();
 
